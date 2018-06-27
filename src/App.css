@@ -1,1 +1,14 @@
 
+.radioButtons {
+    display: flex;
+}
+
+.radioButton {
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.radioButton label, .radioButton input {
+    cursor: pointer;
+}
