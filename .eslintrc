@@ -2,7 +2,10 @@
     "extends": "react-app",
     "rules": {
         "object-curly-spacing": ["error", "always"],
-        "dot-location": ["error", "object"],
-        "indent": ["error", 4]
+        "dot-location": ["error", "property"],
+        "indent": ["error", 4],
+        "semi": ["error", "always"],
+        "arrow-parens": ["error", "always"],
+        "space-before-function-paren": ["error", "always"]
     }
 }
